@@ -1,0 +1,109 @@
+{
+  "label1": {
+  	"type": "label",
+  	"value": "Puddle"
+  },
+  "dropRadius": {
+    "max": 100,
+    "min": 1,
+    "tick": 100,
+    "text": "Radius",
+    "type": "slider",
+    "value": 20
+  },
+  "perturbance": {
+    "max": 100,
+    "min": 0,
+    "tick": 25,
+    "text": "Perturbance",
+    "type": "slider",
+    "value": 1
+  },
+  "imgSelectBG": {
+    "type": "folderDropdown",
+    "value": "dirtywhite.jpg",
+    "text": "Background",
+    "filter": "*.jpg|*.png",
+    "folder": "images/bg"
+  },
+  "imgSelectFG": {
+    "type": "folderDropdown",
+    "value": "blur.jpg",
+    "text": "Foreground",
+    "filter": "*.jpg|*.png",
+    "folder": "images/fg"
+  },
+   "randomDrops": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Random Drops"
+  },
+  "mouse": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Mouse"
+  },
+  "darkMode": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Dark Mode"
+  },
+  "clock": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Clock"
+  },
+  "panel": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Panel"
+  },
+  /*
+  "btnReset" : {
+    "text" : "Click to Reset",
+    "type" : "button",
+    "value" : "Clear"
+ },
+ */
+   "label2": {
+  	"type": "label",
+  	"value": "Weather"
+  },
+   "apiInput": {
+    "text": "API Key",
+    "type": "textbox",
+    "value": "openweathermap.org key"
+  },
+   "cityInput": {
+    "text": "Location",
+    "type": "textbox",
+    "value": "city, country"
+  },
+   "unit": {
+    "type": "dropdown",
+    "value": 0,
+    "text": "Unit",
+    "items": [
+      "Metric",
+      "Imperial",
+    ]
+  },
+  "btnRefresh" : {
+  "text" : "Click to Update",
+  "type" : "button",
+  "value" : "Refresh"
+  },
+ /*
+   "resolution": {
+    "type": "dropdown",
+    "value": 2,
+    "text": "Resolution",
+    "items": [
+      "128",
+      "256",
+      "512",
+      "1024",
+    ]
+  },
+  */
+}

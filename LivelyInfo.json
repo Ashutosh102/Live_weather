@@ -1,0 +1,14 @@
+{
+  "AppVersion": "0.9.5.5",
+  "Title": "Ripples",
+  "Thumbnail": "lively_t.jpg",
+  "Preview": "lively_p.gif",
+  "Desc": "Puddle that shows weather.",
+  "Author": "rocksdanister",
+  "License": "See license.txt",
+  "Contact": "https://github.com/rocksdanister",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}
